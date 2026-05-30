@@ -14,6 +14,8 @@ print(acceleration)
 
 
 # Math CH, We can also perform math operations on variables. you most follow the order of calculation (PEMDAS) when doing so.
+# some commen math operations are:
+# addition: +, subtraction: -, multiplication: *, division: /
 print("Math with variables:")
 player_health = 1000
 armor_multiplier = 2
