@@ -50,3 +50,9 @@ print("F-string example:")
 name = "Alice"
 age = 30
 print(f"Hello, my name is {name} and I am {age} years old.")
+
+
+#NoneType Variables
+print("NoneType variable example:")
+enemy = None
+print(enemy is None)
