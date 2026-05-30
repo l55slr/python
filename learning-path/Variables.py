@@ -44,3 +44,9 @@ x = "Hello, World!"
 is_tall = True
 is_short = False
 
+
+# we can create strings that contain dynamic values with the f-string syntax.
+print("F-string example:")
+name = "Alice"
+age = 30
+print(f"Hello, my name is {name} and I am {age} years old.")
