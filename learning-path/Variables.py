@@ -30,4 +30,17 @@ They can only contain letters, numbers, and underscores.
 plus they have two coommon way of naming like camelCase and snake_case.
 """
 
+#Variable Types: Variables can hold different types of data. Some common types include:
+# - Integers (whole numbers): e.g., 42, -7
+x = 5
+
+# - Floats (decimal numbers): e.g., 3.14, -0.001
+x = 5.2
+
+# - Strings (text): e.g., "Hello, World!"
+x = "Hello, World!"       
+
+# - Booleans (true/false values): e.g., True, False
+is_tall = True
+is_short = False
 
