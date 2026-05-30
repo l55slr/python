@@ -56,3 +56,9 @@ print(f"Hello, my name is {name} and I am {age} years old.")
 print("NoneType variable example:")
 enemy = None
 print(enemy is None)
+
+
+"""
+Info:
+in one line many variables can be declared on the same line.
+"""
