@@ -23,3 +23,11 @@ armored_health = player_health * armor_multiplier
 print(armored_health)
 
 
+""""
+Variable Names: Variable names must not have spaces, 
+and they must not start with a number. 
+They can only contain letters, numbers, and underscores.
+plus they have two coommon way of naming like camelCase and snake_case.
+"""
+
+
