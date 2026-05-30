@@ -1,10 +1,11 @@
 # Variables are called "variables" because they can hold any value and that value can change (it varies).
-
+print("Variables assignment:")
 player_health = 1000
 print(player_health)
 
 
 # the variable overwriting case:
+print("Variable overwriting:")
 acceleration = 10
 acceleration = 20
 print(acceleration)
@@ -13,6 +14,7 @@ print(acceleration)
 
 
 # Math CH, We can also perform math operations on variables. you most follow the order of calculation (PEMDAS) when doing so.
+print("Math with variables:")
 player_health = 1000
 armor_multiplier = 2
 armored_health = player_health * armor_multiplier
