@@ -9,6 +9,18 @@ Provides a value (or values) back to the caller of the function
 Does not print anything to the console (unless the return value is later print()ed)
 """
 
+
+"""
+Multiple Return Values
+A function can return more than one value by separating them with commas.
+"""
+#like this one
+def cast_iceblast(wizard_level, start_mana):
+    damage = wizard_level * 2
+    new_mana = start_mana - 10
+    return damage, new_mana # return two values
+
+
 """
 Parameters vs. Arguments
 Parameters:
