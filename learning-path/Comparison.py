@@ -7,3 +7,6 @@
 == "equal to"
 != "not equal to"
 """
+#If Statements
+if 2 > 1:
+    print("2 is greater than 1")
