@@ -37,3 +37,8 @@ star_rating /= 2
 print(0b1010) # This is 10 in decimal
 print(0b1111) # This is 15 in decimal
 
+#The built-in int() function can convert a binary string to an integer.
+# It takes a second argument that specifies the base of the number (binary is base 2). For example:
+print("using base 2")
+print(int("1010", 2)) # This is 10 in decimal
+print(int("1111", 2)) # This is 15 in decimal
