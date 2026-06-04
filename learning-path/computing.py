@@ -30,3 +30,10 @@ star_rating *= 2
 star_rating = 4
 star_rating /= 2
 # star_rating is now 2.0
+
+
+#Binary in Python
+# Using binary syntax with the 0b prefix:
+print(0b1010) # This is 10 in decimal
+print(0b1111) # This is 15 in decimal
+
