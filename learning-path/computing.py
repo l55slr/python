@@ -16,3 +16,17 @@
 
 #Exponents
 2 ** 3 #This will give us 8, which is 2 multiplied by itself 3 times
+
+#Plus Equals
+# example 
+star_rating = 4
+star_rating -= 1
+# star_rating is now 3
+
+star_rating = 4
+star_rating *= 2
+# star_rating is now 8
+
+star_rating = 4
+star_rating /= 2
+# star_rating is now 2.0
