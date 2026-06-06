@@ -8,3 +8,10 @@ for i in range(0, 10):
 def print_numbers_from_five_to(end):
     for f in range(5, end):
         print(f)
+
+
+#for the thired parameter of the range function, we can specify the step value, which determines how much the loop variable will be incremented in each iteration. By default, the step value is 1, but we can change it to any other value.def count_down(start, end):
+    for i in range(start, end, -1):
+        print(i)
+#how the code will work: the start point is 10 and the end point is 5, now here where the step comes in, do i wanna coiunt down or count up on that i will put -1 as the step value, so the loop will decrement the value of i by 1 in each iteration,
+#and it will print the numbers from 10 down to 6 (because the stop value is not included in the range).
