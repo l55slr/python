@@ -15,3 +15,14 @@ def print_numbers_from_five_to(end):
         print(i)
 #how the code will work: the start point is 10 and the end point is 5, now here where the step comes in, do i wanna coiunt down or count up on that i will put -1 as the step value, so the loop will decrement the value of i by 1 in each iteration,
 #and it will print the numbers from 10 down to 6 (because the stop value is not included in the range).
+
+
+#while loops are used when we want to repeat a block of code as long as a certain condition is true. The syntax for a while loop is:
+def regenerate(current_health, max_health, enemy_distance):
+    while current_health < max_health and enemy_distance > 3:
+        current_health +=1
+        enemy_distance -=2
+    return current_health
+#in this example, the while loop will continue to execute as long as the current health is less than the maximum health and the enemy distance is greater than 3.
+#Inside the loop, we are incrementing the current health by 1 and decrementing the enemy distance by 2 in each iteration. Once either of the conditions becomes false,
+#the loop will stop executing and the function will return the current health.
