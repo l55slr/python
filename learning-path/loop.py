@@ -26,3 +26,27 @@ def regenerate(current_health, max_health, enemy_distance):
 #in this example, the while loop will continue to execute as long as the current health is less than the maximum health and the enemy distance is greater than 3.
 #Inside the loop, we are incrementing the current health by 1 and decrementing the enemy distance by 2 in each iteration. Once either of the conditions becomes false,
 #the loop will stop executing and the function will return the current health.
+
+
+#Continue Statement: means "go directly to the next iteration of this loop." Whatever else was supposed to happen in the current iteration is skipped.
+def award_enchantments(start, end, step):
+    counter = 0
+    for quest_number in range(start, end, step):
+        counter += 1
+        if counter < 3:
+                continue
+        else:
+            counter = 0
+        enchantment_strength = quest_number * 5
+        print(
+            f"Enchantment of strength {enchantment_strength} awarded for completing {quest_number} quests!"
+        )
+
+
+#plus it can help avoiding unnecessary work, like calculating square roots, we might want to skip negative numbers.
+#continue lets us move on to the next number without wasting any time:
+for number in range(-5, 5):
+    if number < 0:
+        continue  # Skip negatives
+
+    print(f"The square root of {number} is {number ** 0.5}")
