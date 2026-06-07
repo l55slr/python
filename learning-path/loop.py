@@ -50,3 +50,25 @@ for number in range(-5, 5):
         continue  # Skip negatives
 
     print(f"The square root of {number} is {number ** 0.5}")
+
+
+#Break statement: is used to exit a loop prematurely when a certain condition is met.
+#When the break statement is executed, the loop will immediately terminate, and the program will continue with the next line of code after the loop.
+for n in range(42):
+    print(f"{n} * {n} = {n * n}")
+    if n * n > 150:
+        break
+#here the loop will be working until the umber is less then 150, but i know that u will get confused as i'm too why it beark at 169 not 150, basically cuz the loop will check the condition after calculating the square,so when n is 13,
+#it will calculate 13*13 which is 169, and then it will check if 169 is greater than 150, which is true, so it will break the loop at that point.
+
+
+#other example of break statement:
+def check_defense(attack_strength, min_enchantment, max_enchantment):
+    for enchantment_strength in range(min_enchantment, max_enchantment + 1):
+        print(
+            f"Comparing attack strength {attack_strength} to enchantment strength {enchantment_strength}."
+        )
+
+        if enchantment_strength >= attack_strength:
+            print("Attack blocked!")
+            break
