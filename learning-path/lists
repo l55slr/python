@@ -10,3 +10,14 @@ inventory = [
     "Healing Potion",
     "Leather Scraps"
 ]
+
+
+#Counting in Programming: We don't start counting at 1, we start at 0 instead.
+inventory = [
+    "Iron Breastplate",
+    "Healing Potion",
+    "Leather Scraps"
+]
+#Iron Breastplate: index 0
+#Healing Potion: index 1
+#Leather Scraps: index 2
