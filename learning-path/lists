@@ -1,0 +1,4 @@
+#lists: A natural way to organize and store data is in a List, 
+#Lists in Python are declared using square brackets, with commas separating each item:
+inventory = ["Iron Breastplate", "Healing Potion", "Leather Scraps"]
+
