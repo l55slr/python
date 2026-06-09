@@ -26,3 +26,9 @@ inventory = [
 #List Length: List can be calculated using the len()
 fruits = ["apple", "banana", "pear"]
 length = len(fruits)
+
+
+#Here we used -1 because the list reads the lenght starting from 1 not 0, so the last index is always one less than the length of the list.
+def get_last_index(inventory):
+    length = len(inventory)
+    return len(inventory) -1
