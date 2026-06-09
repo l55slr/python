@@ -32,3 +32,11 @@ length = len(fruits)
 def get_last_index(inventory):
     length = len(inventory)
     return len(inventory) -1
+
+
+#list update: We can change the value of an item in a list by using its index and assigning it a new value:
+def smelt_ore(inventory):
+    if inventory [1] == "Iron Ore":
+        inventory [1] = "Iron Bar"
+    return inventory
+
