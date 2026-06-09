@@ -21,3 +21,8 @@ inventory = [
 #Iron Breastplate: index 0
 #Healing Potion: index 1
 #Leather Scraps: index 2
+
+
+#List Length: List can be calculated using the len()
+fruits = ["apple", "banana", "pear"]
+length = len(fruits)
