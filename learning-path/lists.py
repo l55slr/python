@@ -40,3 +40,10 @@ def smelt_ore(inventory):
         inventory [1] = "Iron Bar"
     return inventory
 
+
+
+#Appending in Python: We can add items to the end of a list using the append() method:
+cards = []
+cards.append("nvidia")
+cards.append("amd")
+print(cards)
