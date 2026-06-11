@@ -47,3 +47,9 @@ cards = []
 cards.append("nvidia")
 cards.append("amd")
 print(cards)
+
+
+#pop value: We can remove the last item from a list using the pop() method:
+cards = ["nvidia", "amd", "intel"]
+cards.pop()
+print(cards)
