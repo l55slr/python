@@ -53,3 +53,9 @@ print(cards)
 cards = ["nvidia", "amd", "intel"]
 cards.pop()
 print(cards)
+
+
+#No-Index Syntax: We can also use a for loop to iterate through the items in a list without needing to know their index:
+trees = ['oak', 'pine', 'maple']
+for tree in trees:
+    print(tree)
