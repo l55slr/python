@@ -49,13 +49,31 @@ cards.append("amd")
 print(cards)
 
 
+
 #pop value: We can remove the last item from a list using the pop() method:
 cards = ["nvidia", "amd", "intel"]
 cards.pop()
 print(cards)
 
 
+
 #No-Index Syntax: We can also use a for loop to iterate through the items in a list without needing to know their index:
 trees = ['oak', 'pine', 'maple']
 for tree in trees:
     print(tree)
+
+
+
+#Comparing Lists: we cam comper two lists listes:
+def check_character_levels():
+    old_character_levels = [1, 42, 43, 53, 12, 3, 32, 34, 54, 32, 43]
+    new_character_levels = [1, 42, 45, 54, 12, 3, 32, 38, 54, 32, 42]
+
+    for i in range(0, len(old_character_levels)):
+        old = old_character_levels [i]
+        new = new_character_levels [i]
+        if old < new:
+            print(i)
+
+#this takes the both lists and compares the values at each index,
+# if the value in the old list is less than the value in the new list, it prints the index of that item.
