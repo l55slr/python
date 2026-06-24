@@ -87,3 +87,22 @@ def concatenate_favorites(favorite_weapons, favorite_armor, favorite_items):
 #['sword', 'dagger'], ['bracers', 'helmet'], ['feather', 'iron bars'], thoses are the liosts that will be connected together and returned as one list.
 # insted of showing separate lists, it will show one list with all the items in it.
 #like this: ['sword', 'dagger', 'bracers', 'helmet', 'feather', 'iron bars']
+
+
+
+#if it contains in the list: We can check if a list contains a specific item using the in operator or the not in operator:
+def is_top_weapon(weapon):
+    top_weapons = [
+        "sword of justice",
+        "sword of slashing",
+        "stabby daggy",
+        "great axe",
+        "silver bow",
+        "spellbook",
+        "spiked knuckles",
+    ]
+
+    if weapon in top_weapons:
+        return True
+    else:
+        return False
