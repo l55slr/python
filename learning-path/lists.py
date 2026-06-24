@@ -77,3 +77,13 @@ def check_character_levels():
 
 #this takes the both lists and compares the values at each index,
 # if the value in the old list is less than the value in the new list, it prints the index of that item.
+
+
+
+#connecting lists: We can connect multiple lists together using the + operator:
+def concatenate_favorites(favorite_weapons, favorite_armor, favorite_items):
+    lists = favorite_weapons + favorite_armor + favorite_items
+    return lists
+#['sword', 'dagger'], ['bracers', 'helmet'], ['feather', 'iron bars'], thoses are the liosts that will be connected together and returned as one list.
+# insted of showing separate lists, it will show one list with all the items in it.
+#like this: ['sword', 'dagger', 'bracers', 'helmet', 'feather', 'iron bars']
